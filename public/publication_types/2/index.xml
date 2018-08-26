@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 on SeaEco Lab</title>
-    <link>/publication_types/2/</link>
+    <link>https://seaecolab.netlify.com/publication_types/2/</link>
     <description>Recent content in 2 on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 30 Sep 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Testing of the 4SM Method in the Gulf of California Suggests Field Data Are not Needed to Derive Satellite Bathymetry</title>
-      <link>/publication/4sm_slc/</link>
+      <link>https://seaecolab.netlify.com/publication/4sm_slc/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>/publication/4sm_slc/</guid>
+      <guid>https://seaecolab.netlify.com/publication/4sm_slc/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
       <title>4SM a novel method for water column correction</title>
-      <link>/publication/4sm_yann/</link>
+      <link>https://seaecolab.netlify.com/publication/4sm_yann/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>/publication/4sm_yann/</guid>
+      <guid>https://seaecolab.netlify.com/publication/4sm_yann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
+      <link>https://seaecolab.netlify.com/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0600</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
+      <guid>https://seaecolab.netlify.com/publication/person-re-identification/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
