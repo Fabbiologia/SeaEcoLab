@@ -22,7 +22,7 @@ publication = "In *Sensor*, MDPI."
 publication_short = "In *Sensor*"
 
 # Abstract and optional shortened version.
-abstract = "Satellite-derived bathymetry methods over coastal areas were developed to deliver basic and useful bathymetry information. However, the process is not straightforward, the main limitation being the need for field data. The Self-calibrated Spectral Supervised Shallow-water Modeler (4SM) method was tested to obtain coastal bathymetry without the use of any field data. Using Landsat-8 multispectral images from 2013 to 2016, a bathymetric time series was produced. Groundtruthed depths and an alternative method, Stumpf’s Band Ratio Algorithm, were used to verify the results. Retrieved (4SM) vs groundtruthed depths scored an average r2 (0.90), and a low error (RMSE = 1.47 m). 4SM also showed, over the whole time series, the same average accuracy of the control method (40%). Advantages, limitations and operability under complex atmosphere and water column conditions, and high and low-albedo bottom processing capabilities of 4SM are discussed. In conclusion, the findings suggest that 4SM is as accurate as the commonly used Stumpf’s method, the only difference being the independence of 4SM from previous field data, and the potential to deliver bottom spectral characteristics for further modeling. 4SM thus represents a significant advance in coastal remote sensing potential to obtain bathymetry and optical properties of the marine bottom."
+abstract =  "Satellite-derived bathymetry methods over coastal areas were developed to deliver basic and useful bathymetry information. However, the process is not straightforward, the main limitation being the need for field data. The Self-calibrated Spectral Supervised Shallow-water Modeler (4SM) method was tested to obtain coastal bathymetry without the use of any field data. Using Landsat-8 multispectral images from 2013 to 2016, a bathymetric time series was produced. Groundtruthed depths and an alternative method, Stumpf’s Band Ratio Algorithm, were used to verify the results. Retrieved (4SM) vs groundtruthed depths scored an average r2 (0.90), and a low error (RMSE = 1.47 m). 4SM also showed, over the whole time series, the same average accuracy of the control method (40%). Advantages, limitations and operability under complex atmosphere and water column conditions, and high and low-albedo bottom processing capabilities of 4SM are discussed. In conclusion, the findings suggest that 4SM is as accurate as the commonly used Stumpf’s method, the only difference being the independence of 4SM from previous field data, and the potential to deliver bottom spectral characteristics for further modeling. 4SM thus represents a significant advance in coastal remote sensing potential to obtain bathymetry and optical properties of the marine bottom." 
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -36,11 +36,11 @@ selected = true
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["remote-sensing"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Coastal Remote Sensing"]
 
 # Links (optional).
 url_pdf = "http://arxiv.org/pdf/1512.04133v1"
@@ -70,5 +70,3 @@ image = ""
 caption = ""
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
