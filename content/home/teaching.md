@@ -17,6 +17,6 @@ weight = 60
 
 The SeaEcoLab is active in academia with the following courses:
 
-- [SIG101: An Introduction to Geographic Information Systems  @UABCS](https://novedadesaca.mx/mejorar-arrecifes-zihuatanejo/)
+- [SIG101: An Introduction to Geographic Information Systems  @UABCS](https://seaecolab.netlify.com/post/sig101/)
 - R-numerical ecology: An Introduction to R and Numerical Ecology
 - 4SM and Remote Sensing: Remote sensing in submerged environments using 4SM
