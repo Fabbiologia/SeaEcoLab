@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coastal Remote Sensing on SeaEco Lab</title>
+    <link>/tags/coastal-remote-sensing/</link>
+    <description>Recent content in Coastal Remote Sensing on SeaEco Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 15 Aug 2017 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/coastal-remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4SM a novel method for water column correction</title>
+      <link>/publication/4sm_yann/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 -0600</pubDate>
+      
+      <guid>/publication/4sm_yann/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

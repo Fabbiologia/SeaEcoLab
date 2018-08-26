@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SIG on SeaEco Lab</title>
+    <link>/categories/sig/</link>
+    <description>Recent content in SIG on SeaEco Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/sig/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SIG101: An Introduction to Geographic Information Systems</title>
+      <link>/post/sig101/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sig101/</guid>
+      <description>This is the course introduction, and source materials reference</description>
+    </item>
+    
+  </channel>
+</rss>
