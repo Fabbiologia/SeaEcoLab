@@ -68,6 +68,14 @@
     
     <url>
     
+      <loc>https://seaecolab.netlify.com/project/macroalgae/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://seaecolab.netlify.com/project/rocky-reefs-community/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
@@ -95,6 +103,15 @@
     
       <loc>https://seaecolab.netlify.com/tags/coastal-remote-sensing/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://seaecolab.netlify.com/tags/macroalgae/</loc>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -138,7 +155,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/categories/sig/</loc>
+      <loc>https://seaecolab.netlify.com/tags/sig/</loc>
       <lastmod>2018-08-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -147,7 +164,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/sig/</loc>
+      <loc>https://seaecolab.netlify.com/categories/sig/</loc>
       <lastmod>2018-08-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
