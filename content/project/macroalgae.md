@@ -33,7 +33,7 @@ math = false
 
 "The Gulf of California is famous all over the world for its marine biodiversity. There, rocky reefs represent the largest habitat that hosts a rich biodiversity important for the ecosystem balance and for providing commercial and tourist attractions. In the GOC, few studies tackled the topic of macroalgae community ecology in the rocky reefs, despite being a recognized fundamental component in every marine system. On a large scale, the relationship between macroalgae community structure and the surrounding environment is practically unknown. Here we show how macroalgae dominates in term of cover all of the rocky reefs investigated, underlining their importance for the habitat. 
 
-{{< gallery >}}
+![Main macroalgae taxa cover](/img/Macroalgae_cover.jpg)
 Boxplots macroalgae taxa that showed the highest cover in the five study areas; the last panel show the top five taxa with the highest cover in all of the surveyed reefs, the abbreviations are L. var= Lobophora variegata, Dict= Dictyota sp, Poci= Pocillopora spp. 
 
 Furthermore, we disentangled the role of abiotic factors, like temperature and Chlorophyll-a concentration, and biotic factors, like fish and invertebrate grazers, over the macroalgae community. We found a latitudinal gradient in macroalgae that, however, is not the most important driver of community structure at this scale. Indeed a strong relationship was found between macroalgae functional groups like turf and crustose coralline algae with grazing species like the sea urchin *Diadema mexicanum* and the starfish *Phataria unifascialis*. 
