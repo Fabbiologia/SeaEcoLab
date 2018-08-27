@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SeaEco Lab</title>
-    <link>/post/</link>
+    <link>https://seaecolab.netlify.com/post/</link>
     <description>Recent content in Posts on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SIG101: An Introduction to Geographic Information Systems</title>
-      <link>/post/sig101/</link>
+      <link>https://seaecolab.netlify.com/post/sig101/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/sig101/</guid>
+      <guid>https://seaecolab.netlify.com/post/sig101/</guid>
       <description>This is the page dedicated to the SIG101 course @UABCS. Slides can be found here
  Class 1 Class 2 Class 3
  Literature
@@ -26,10 +26,10 @@
     
     <item>
       <title>Who we are</title>
-      <link>/post/who-we-are/</link>
+      <link>https://seaecolab.netlify.com/post/who-we-are/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/who-we-are/</guid>
+      <guid>https://seaecolab.netlify.com/post/who-we-are/</guid>
       <description>The SeaEcoLab aims to model how habitats and communities change in time, and how this affect biodiversity and ecosystem functioning. In the Gulf of California the group is working extensively using numerical ecology techniques, generalized models, and remote sensing to study rocky reefs communities. The group is involved in different projects and is collaborating with international institutions, such as the SCRIPPS institution of Oceanography, the Centro Marino para la Biodiversidad y Conservacion CMBC, the Bioengeneering and Environmental Science Laboratory BICA and the Reef Fauna Project PFA.</description>
     </item>
     

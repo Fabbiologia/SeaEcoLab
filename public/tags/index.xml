@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SeaEco Lab</title>
-    <link>/tags/</link>
+    <link>https://seaecolab.netlify.com/tags/</link>
     <description>Recent content in Tags on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sat, 30 Sep 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Coastal Remote Sensing</title>
-      <link>/tags/coastal-remote-sensing/</link>
+      <link>https://seaecolab.netlify.com/tags/coastal-remote-sensing/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>/tags/coastal-remote-sensing/</guid>
+      <guid>https://seaecolab.netlify.com/tags/coastal-remote-sensing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macroalgae</title>
-      <link>/tags/macroalgae/</link>
+      <link>https://seaecolab.netlify.com/tags/macroalgae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>/tags/macroalgae/</guid>
+      <guid>https://seaecolab.netlify.com/tags/macroalgae/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remote Sensing</title>
-      <link>/tags/remote-sensing/</link>
+      <link>https://seaecolab.netlify.com/tags/remote-sensing/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 -0600</pubDate>
       
-      <guid>/tags/remote-sensing/</guid>
+      <guid>https://seaecolab.netlify.com/tags/remote-sensing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rocky reefs</title>
-      <link>/tags/rocky-reefs/</link>
+      <link>https://seaecolab.netlify.com/tags/rocky-reefs/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>/tags/rocky-reefs/</guid>
+      <guid>https://seaecolab.netlify.com/tags/rocky-reefs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SIG</title>
-      <link>/tags/sig/</link>
+      <link>https://seaecolab.netlify.com/tags/sig/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sig/</guid>
+      <guid>https://seaecolab.netlify.com/tags/sig/</guid>
       <description></description>
     </item>
     

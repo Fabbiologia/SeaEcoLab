@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on SeaEco Lab</title>
-    <link>/categories/</link>
+    <link>https://seaecolab.netlify.com/categories/</link>
     <description>Recent content in Categories on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SIG</title>
-      <link>/categories/sig/</link>
+      <link>https://seaecolab.netlify.com/categories/sig/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/sig/</guid>
+      <guid>https://seaecolab.netlify.com/categories/sig/</guid>
       <description></description>
     </item>
     

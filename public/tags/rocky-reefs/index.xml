@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rocky reefs on SeaEco Lab</title>
-    <link>/tags/rocky-reefs/</link>
+    <link>https://seaecolab.netlify.com/tags/rocky-reefs/</link>
     <description>Recent content in Rocky reefs on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/tags/rocky-reefs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/tags/rocky-reefs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rocky reefs&#39; community ecology in the Gulf of California</title>
-      <link>/project/rocky-reefs-community/</link>
+      <link>https://seaecolab.netlify.com/project/rocky-reefs-community/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>/project/rocky-reefs-community/</guid>
+      <guid>https://seaecolab.netlify.com/project/rocky-reefs-community/</guid>
       <description>&amp;ldquo;The Gulf of California, once branded as “the Aquarium of the World” due to its high biodiversity and pool of unique species, is subject to increasing fishing pressure and habitat transformation, threatening its biodiversity. Using a database of 17 years of ecological underwater surveys in the rocky reefs of the region, our temporal analyses revealed a generalized loss of richness for species of fishes and epibenthic invertebrates. Moreover, a significant rise of Sea Surface Temperatures (SST) is prompting a tropicalization of the invertebrate community in the region, where species that historically inhabited the subtropical transitional areas in the GOC, reduced their spatial range, while being displaced by species with tropical affinities.</description>
     </item>
     
