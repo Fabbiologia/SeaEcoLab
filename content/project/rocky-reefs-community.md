@@ -3,20 +3,20 @@
 date = 2016-04-27T00:00:00
 
 # Project title.
-title = "External Project"
+title = "rocky reefs' community ecology in the Gulf of California"
 
 # Project summary to display on homepage.
-summary = "An example of linking directly to an external project website using `external_link`."
+summary = "Community ecology of fish and invertebrates associated to the rocky reefs in the Gulf of California. This project uses data from the Gulf of California Marine Program monitoring database."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "boards.jpg"
+image_preview = "GOCtime.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Demo"]
+tags = ["Rocky reefs"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://example.org"
+#external_link = "http://example.org"
 
 # Does the project detail page use math formatting?
 math = false
