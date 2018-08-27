@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Remote Sensing on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/tags/remote-sensing/</link>
+    <link>/tags/remote-sensing/</link>
     <description>Recent content in Remote Sensing on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 15 Aug 2018 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://seaecolab.netlify.com/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Remote Sensing</title>
-      <link>https://seaecolab.netlify.com/project/remote-sensing/</link>
+      <link>/project/remote-sensing/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/remote-sensing/</guid>
+      <guid>/project/remote-sensing/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     

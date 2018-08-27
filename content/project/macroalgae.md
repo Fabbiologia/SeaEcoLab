@@ -9,7 +9,7 @@ title = "Macroalgae community over the rocky reefs in the Gulf of California"
 summary = "Biotic and abiotic effects over rocky reef's macroalgae community strucutre, a neglected component in the Gulf of California"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "Macroalgae.tif"
+image_preview = "Macroalgae.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -24,7 +24,7 @@ math = false
 #gallery
 [[gallery_item]]
       album = "1"
-      image = "Macroalgae_cover.tif"
+      image = "Macroalgae_cover.jpg"
       caption = "boxplots macroalgae taxa that showed the highest cover in the five study areas; the last panel show the top five taxa with the highest cover in all of the surveyed reefs, the abbreviations are L. var= *Lobophora variegata*, Dict= *Dictyota* sp, Poci= *Pocillopora* spp. "
       align = "center"
 
@@ -38,7 +38,7 @@ Boxplots macroalgae taxa that showed the highest cover in the five study areas; 
 
 Furthermore, we disentangled the role of abiotic factors, like temperature and Chlorophyll-a concentration, and biotic factors, like fish and invertebrate grazers, over the macroalgae community. We found a latitudinal gradient in macroalgae that, however, is not the most important driver of community structure at this scale. Indeed a strong relationship was found between macroalgae functional groups like turf and crustose coralline algae with grazing species like the sea urchin *Diadema mexicanum* and the starfish *Phataria unifascialis*. 
 
-![RDA analysis of Macroalgae taxa](RDAmacroalgae.tif)
+![RDA analysis of Macroalgae taxa](/img/RDAmacroalgae.jpg)
 Parsimonious RDA of macroalgae benthic community using biotic and abiotic environmental variables as explanatory variables. Significant variables represented by the arrows are coded as follow: **D_mex**: Diadema mexicanum, **chla_min**: Chlorophyll-a minimum value, **SST**: mean Sea Surface Temperature (°C), **P_unif**: Phataria unifascialis. 
 
 These results further underline the importance of the trophic network in keeping the balance between different functional groups of organisms, and the key role that grazer play in shaping community structure. We hope to raise interest over the macroalgae of the rocky reefs and that this study will serve as a baseline from which future investigation can rely on to further understand the complex relationships that shapes the rocky reefs communities in the GOC. 

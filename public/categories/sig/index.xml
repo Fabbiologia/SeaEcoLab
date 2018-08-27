@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SIG on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/categories/sig/</link>
+    <link>/categories/sig/</link>
     <description>Recent content in SIG on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://seaecolab.netlify.com/categories/sig/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/sig/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SIG101: An Introduction to Geographic Information Systems</title>
-      <link>https://seaecolab.netlify.com/post/sig101/</link>
+      <link>/post/sig101/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/post/sig101/</guid>
+      <guid>/post/sig101/</guid>
       <description>This is the page dedicated to the SIG101 course @UABCS. Slides can be found here
  Class 1 Class 2 Class 3
  Literature
