@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SeaEco Lab on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/</link>
+    <link>/</link>
     <description>Recent content in SeaEco Lab on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>SIG101: An Introduction to Geographic Information Systems</title>
-      <link>https://seaecolab.netlify.com/post/sig101/</link>
+      <link>/post/sig101/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/post/sig101/</guid>
+      <guid>/post/sig101/</guid>
       <description>&lt;p&gt;This is the page dedicated to the SIG101 course @UABCS.
 Slides can be found here&lt;/p&gt;
 
@@ -32,10 +32,10 @@ Slides can be found here&lt;/p&gt;
     
     <item>
       <title>Remote Sensing</title>
-      <link>https://seaecolab.netlify.com/project/remote-sensing/</link>
+      <link>/project/remote-sensing/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/remote-sensing/</guid>
+      <guid>/project/remote-sensing/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -50,10 +50,10 @@ Slides can be found here&lt;/p&gt;
     
     <item>
       <title>Who we are</title>
-      <link>https://seaecolab.netlify.com/post/who-we-are/</link>
+      <link>/post/who-we-are/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/post/who-we-are/</guid>
+      <guid>/post/who-we-are/</guid>
       <description>&lt;p&gt;The SeaEcoLab aims to model how habitats and communities change in time, and how this affect biodiversity and ecosystem functioning.
 In the Gulf of California the group is working extensively using numerical ecology techniques, generalized models, and remote sensing to study rocky reefs communities.
 The group is involved in different projects and is collaborating with international institutions, such as the SCRIPPS institution of Oceanography, the Centro Marino para la Biodiversidad y Conservacion CMBC, the Bioengeneering and Environmental Science Laboratory BICA and the Reef Fauna Project PFA.&lt;/p&gt;
@@ -62,46 +62,46 @@ The group is involved in different projects and is collaborating with internatio
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://seaecolab.netlify.com/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Testing of the 4SM Method in the Gulf of California Suggests Field Data Are not Needed to Derive Satellite Bathymetry</title>
-      <link>https://seaecolab.netlify.com/publication/4sm_slc/</link>
+      <link>/publication/4sm_slc/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/publication/4sm_slc/</guid>
+      <guid>/publication/4sm_slc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4SM a novel method for water column correction</title>
-      <link>https://seaecolab.netlify.com/publication/4sm_yann/</link>
+      <link>/publication/4sm_yann/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/publication/4sm_yann/</guid>
+      <guid>/publication/4sm_yann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macroalgae community over the rocky reefs in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/macroalgae/</link>
+      <link>/project/macroalgae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/macroalgae/</guid>
+      <guid>/project/macroalgae/</guid>
       <description>&lt;p&gt;&amp;ldquo;The Gulf of California is famous all over the world for its marine biodiversity. There, rocky reefs represent the largest habitat that hosts a rich biodiversity important for the ecosystem balance and for providing commercial and tourist attractions. In the GOC, few studies tackled the topic of macroalgae community ecology in the rocky reefs, despite being a recognized fundamental component in every marine system. On a large scale, the relationship between macroalgae community structure and the surrounding environment is practically unknown. Here we show how macroalgae dominates in term of cover all of the rocky reefs investigated, underlining their importance for the habitat.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://seaecolab.netlify.com/img/Macroalgae_cover.png&#34; alt=&#34;Main macroalgae taxa cover&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/img/Macroalgae_cover.png&#34; alt=&#34;Main macroalgae taxa cover&#34; /&gt;
 Boxplots macroalgae taxa that showed the highest cover in the five study areas; the last panel show the top five taxa with the highest cover in all of the surveyed reefs, the abbreviations are L. var= Lobophora variegata, Dict= Dictyota sp, Poci= Pocillopora spp.&lt;/p&gt;
 
 &lt;p&gt;Furthermore, we disentangled the role of abiotic factors, like temperature and Chlorophyll-a concentration, and biotic factors, like fish and invertebrate grazers, over the macroalgae community. We found a latitudinal gradient in macroalgae that, however, is not the most important driver of community structure at this scale. Indeed a strong relationship was found between macroalgae functional groups like turf and crustose coralline algae with grazing species like the sea urchin &lt;em&gt;Diadema mexicanum&lt;/em&gt; and the starfish &lt;em&gt;Phataria unifascialis&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://seaecolab.netlify.com/img/RDAmacroalgae.png&#34; alt=&#34;RDA analysis of Macroalgae taxa&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/img/RDAmacroalgae.png&#34; alt=&#34;RDA analysis of Macroalgae taxa&#34; /&gt;
 Parsimonious RDA of macroalgae benthic community using biotic and abiotic environmental variables as explanatory variables. Significant variables represented by the arrows are coded as follow: &lt;strong&gt;D_mex&lt;/strong&gt;: Diadema mexicanum, &lt;strong&gt;chla_min&lt;/strong&gt;: Chlorophyll-a minimum value, &lt;strong&gt;SST&lt;/strong&gt;: mean Sea Surface Temperature (°C), &lt;strong&gt;P_unif&lt;/strong&gt;: Phataria unifascialis.&lt;/p&gt;
 
 &lt;p&gt;These results further underline the importance of the trophic network in keeping the balance between different functional groups of organisms, and the key role that grazer play in shaping community structure. We hope to raise interest over the macroalgae of the rocky reefs and that this study will serve as a baseline from which future investigation can rely on to further understand the complex relationships that shapes the rocky reefs communities in the GOC.&lt;/p&gt;
@@ -110,12 +110,12 @@ Parsimonious RDA of macroalgae benthic community using biotic and abiotic enviro
     
     <item>
       <title>Rocky reefs&#39; community ecology in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/rocky-reefs-community/</link>
+      <link>/project/rocky-reefs-community/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/rocky-reefs-community/</guid>
+      <guid>/project/rocky-reefs-community/</guid>
       <description>&lt;p&gt;&amp;ldquo;The Gulf of California, once branded as “the Aquarium of the World” due to its high biodiversity and pool of unique species, is subject to increasing fishing pressure and habitat transformation, threatening its biodiversity. Using a database of 17 years of ecological underwater surveys in the rocky reefs of the region, our temporal analyses revealed a generalized loss of richness for species of fishes and epibenthic invertebrates. Moreover, a significant rise of Sea Surface Temperatures (SST) is prompting a tropicalization of the invertebrate community in the region, where species that historically inhabited the subtropical transitional areas in the GOC, reduced their spatial range, while being displaced by species with tropical affinities. Analyzing community differences among reefs trough time using the Local Contribution to Beta Diversity index, we observed that the coupled effects of the defaunation and tropicalization prompted a spatial biotic homogenization over the region, making reefs more similar through time.
-&lt;img src=&#34;https://seaecolab.netlify.com/img/Tropicalization.png&#34; alt=&#34;Tropicalization in the Gulf of California&#34; /&gt;
+&lt;img src=&#34;/img/Tropicalization.png&#34; alt=&#34;Tropicalization in the Gulf of California&#34; /&gt;
 On the left, the map show ecoregions in the GOC. NG is Northern GOC, CG is Central GOC, SG is Southern GOC, TEP is Tropical Eastern Pacific. On the right the same regions are drawn, but shifted northwards according to what we can theoretically expect for the future of the area from the results of this project. The purpose of this figure is just to allow the reader to visualize our conceptualization of a near-future tropicalization scenario in the GOC.&lt;/p&gt;
 
 &lt;p&gt;Finally, we found that well-enforced no-take areas can buffer the long-term homogenization of specific reefs, such as Cabo Pulmo National Park. This suggest that overfishing might be an important driver of fish biomasses degradation in the region. The longer-term outcomes of the processes of defaunation, tropicalization and biotic homogenization over ecosystems are still largely unknown. Continuing the support of ecological monitoring programs is, therefore, far-reaching not only to record such effects, but also to identify areas that could serve as last refugia to preserve the biodiversity of a region that once attracted the attention of researchers from around the globe.&amp;rdquo;&lt;/p&gt;

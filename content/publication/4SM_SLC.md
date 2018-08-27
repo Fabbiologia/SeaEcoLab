@@ -43,7 +43,7 @@ projects = ["remote-sensing"]
 tags = ["Coastal Remote Sensing"]
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
+url_pdf = "http://www.mdpi.com/1424-8220/17/10/2248"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

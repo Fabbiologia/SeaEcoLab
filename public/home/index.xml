@@ -2,151 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/home/</link>
+    <link>/home/</link>
     <description>Recent content in Homes on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://seaecolab.netlify.com/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/hero_carousel/</link>
+      <link>/home/hero_carousel/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/hero_carousel/</guid>
+      <guid>/home/hero_carousel/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/about/</link>
+      <link>/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/about/</guid>
+      <guid>/home/about/</guid>
       <description>Description The Seascape Ecology Lab (SeaEcoLab) is a newly formed division of the Bioengeneering and Environmental Science Laboratory (BICA) @ UABCS, its goal is to use cutting-edge techniques of numerical ecology, data science and remote sensing to describe space-time dynamics of marine communities and their habitats.
   Fabio Favoretto is the leader of the team, experienced in remote sensing, field ecology and numerical ecology.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://seaecolab.netlify.com/home/projects/</link>
+      <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/projects/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://seaecolab.netlify.com/home/publications_selected/</link>
+      <link>/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/publications_selected/</guid>
+      <guid>/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Press releases</title>
-      <link>https://seaecolab.netlify.com/home/press-releases/</link>
+      <link>/home/press-releases/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/press-releases/</guid>
+      <guid>/home/press-releases/</guid>
       <description>The SeaEcoLab is featured in the following press releases:
  Zihuatanejo Reefs project Gulf of California Seascapes Gulf of California Seascapes 2 Gulf of California Seascapes 3 Gulf of California Seascapes 4 Gulf of California Seascapes 5  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/skills/</link>
+      <link>/home/skills/</link>
       <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/skills/</guid>
+      <guid>/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://seaecolab.netlify.com/home/publications/</link>
+      <link>/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/publications/</guid>
+      <guid>/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://seaecolab.netlify.com/home/posts/</link>
+      <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/posts/</guid>
+      <guid>/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://seaecolab.netlify.com/home/teaching/</link>
+      <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/teaching/</guid>
+      <guid>/home/teaching/</guid>
       <description>The SeaEcoLab is active in academia with the following courses:
  SIG101: An Introduction to Geographic Information Systems @UABCS R-numerical ecology: An Introduction to R and Numerical Ecology 4SM and Remote Sensing: Remote sensing in submerged environments using 4SM  </description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://seaecolab.netlify.com/home/tags/</link>
+      <link>/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/tags/</guid>
+      <guid>/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://seaecolab.netlify.com/home/search/</link>
+      <link>/home/search/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/search/</guid>
+      <guid>/home/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://seaecolab.netlify.com/home/contact/</link>
+      <link>/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/contact/</guid>
+      <guid>/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/hero/</link>
+      <link>/home/hero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/hero/</guid>
+      <guid>/home/hero/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/talks/</link>
+      <link>/home/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/talks/</guid>
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://seaecolab.netlify.com/home/talks_selected/</link>
+      <link>/home/talks_selected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/home/talks_selected/</guid>
+      <guid>/home/talks_selected/</guid>
       <description></description>
     </item>
     
