@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Macroalgae on SeaEco Lab</title>
-    <link>/tags/macroalgae/</link>
+    <link>https://seaecolab.netlify.com/tags/macroalgae/</link>
     <description>Recent content in Macroalgae on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="/tags/macroalgae/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/tags/macroalgae/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Macroalgae community over the rocky reefs in the Gulf of California</title>
-      <link>/project/macroalgae/</link>
+      <link>https://seaecolab.netlify.com/project/macroalgae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>/project/macroalgae/</guid>
+      <guid>https://seaecolab.netlify.com/project/macroalgae/</guid>
       <description>&amp;ldquo;The Gulf of California is famous all over the world for its marine biodiversity. There, rocky reefs represent the largest habitat that hosts a rich biodiversity important for the ecosystem balance and for providing commercial and tourist attractions. In the GOC, few studies tackled the topic of macroalgae community ecology in the rocky reefs, despite being a recognized fundamental component in every marine system. On a large scale, the relationship between macroalgae community structure and the surrounding environment is practically unknown.</description>
     </item>
     

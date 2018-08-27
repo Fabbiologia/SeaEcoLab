@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on SeaEco Lab</title>
-    <link>/publication/</link>
+    <link>https://seaecolab.netlify.com/publication/</link>
     <description>Recent content in Publications on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seaecolab.netlify.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Testing of the 4SM Method in the Gulf of California Suggests Field Data Are not Needed to Derive Satellite Bathymetry</title>
-      <link>/publication/4sm_slc/</link>
+      <link>https://seaecolab.netlify.com/publication/4sm_slc/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>/publication/4sm_slc/</guid>
+      <guid>https://seaecolab.netlify.com/publication/4sm_slc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4SM a novel method for water column correction</title>
-      <link>/publication/4sm_yann/</link>
+      <link>https://seaecolab.netlify.com/publication/4sm_yann/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>/publication/4sm_yann/</guid>
+      <guid>https://seaecolab.netlify.com/publication/4sm_yann/</guid>
       <description></description>
     </item>
     
