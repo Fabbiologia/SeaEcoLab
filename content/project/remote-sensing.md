@@ -22,13 +22,13 @@ external_link = "http://www.watercolumncorrection.com/web-slc-olip.php"
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "4SMlogo.png"
-caption = "My caption :smile:"
+#[header]
+image = "Satellite.jpg"
+#caption = "My caption :smile:"
 
 +++
 
-This project is in collaboration with [Dr. Morel](www.watercolumncorrection.com), who has been developing 4SM methodology for water column correction of satellite images without the need for field data. 
+This project is in collaboration with [Dr. Morel](http://www.watercolumncorrection.com/), who has been developing 4SM methodology for water column correction of satellite images without the need for field data. 
 We are proud to be part of the developing of this incredible method. 
 
 4SM is also featured in a new project of mapping the benthic communities of the Espiritu Santo marine reserve. More information about the project are coming soon. 
