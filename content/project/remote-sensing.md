@@ -22,9 +22,9 @@ external_link = "http://www.watercolumncorrection.com/web-slc-olip.php"
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-#[header]
+[header]
 image = "Satellite.jpg"
-#caption = "My caption :smile:"
+caption = "My caption :smile:"
 
 +++
 
