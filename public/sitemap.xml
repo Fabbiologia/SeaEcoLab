@@ -4,7 +4,15 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/post/sig101/</loc>
+      <loc>/post/how-to-create-your-own-academic-website-like-a-noob/</loc>
+      <lastmod>2018-08-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/sig101/</loc>
       <lastmod>2018-08-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -12,7 +20,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/project/remote-sensing/</loc>
+      <loc>/project/remote-sensing/</loc>
       <lastmod>2018-08-15T00:00:00-06:00</lastmod>
     </url>
     
@@ -20,7 +28,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/post/who-we-are/</loc>
+      <loc>/post/who-we-are/</loc>
       <lastmod>2018-08-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,7 +36,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/privacy/</loc>
+      <loc>/privacy/</loc>
       <lastmod>2018-06-28T00:00:00-06:00</lastmod>
     </url>
     
@@ -36,7 +44,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/publication/4sm_slc/</loc>
+      <loc>/publication/4sm_slc/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
     </url>
     
@@ -44,7 +52,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/publication/4sm_yann/</loc>
+      <loc>/publication/4sm_yann/</loc>
       <lastmod>2017-08-15T00:00:00-06:00</lastmod>
     </url>
     
@@ -52,7 +60,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
@@ -60,7 +68,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00-07:00</lastmod>
     </url>
     
@@ -68,7 +76,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/project/macroalgae/</loc>
+      <loc>/project/macroalgae/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
     
@@ -76,7 +84,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/project/rocky-reefs-community/</loc>
+      <loc>/project/rocky-reefs-community/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
     </url>
     
@@ -84,7 +92,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -93,7 +101,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -101,7 +109,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/coastal-remote-sensing/</loc>
+      <loc>/tags/coastal-remote-sensing/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -110,7 +118,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/macroalgae/</loc>
+      <loc>/tags/macroalgae/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -119,7 +127,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2018-08-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -128,7 +136,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -137,7 +145,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/remote-sensing/</loc>
+      <loc>/tags/remote-sensing/</loc>
       <lastmod>2018-08-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -146,7 +154,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/rocky-reefs/</loc>
+      <loc>/tags/rocky-reefs/</loc>
       <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -155,7 +163,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/sig/</loc>
+      <loc>/tags/sig/</loc>
       <lastmod>2018-08-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -164,7 +172,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/categories/sig/</loc>
+      <loc>/categories/sig/</loc>
       <lastmod>2018-08-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -173,7 +181,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
@@ -182,7 +190,7 @@
     
     <url>
     
-      <loc>https://seaecolab.netlify.com/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-09-30T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>

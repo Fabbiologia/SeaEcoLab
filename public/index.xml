@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SeaEco Lab on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/</link>
+    <link>/</link>
     <description>Recent content in SeaEco Lab on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,222 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to create your own academic website like a noob</title>
+      <link>/post/how-to-create-your-own-academic-website-like-a-noob/</link>
+      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-create-your-own-academic-website-like-a-noob/</guid>
+      <description>&lt;p&gt;Welcome to this noob tutorial on how to get your own website online, quick and &lt;strong&gt;for free&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;First off you should know that this is NOT a complete guide on how to fully operate your future website and all the vast possibilities. I will happily lead you to the moment of the deployment and the emotion of having your own website on the web. To go further i suggest two main sources of great information that are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;blogdown: Creating Websites with R Markdown by Yihui Xie, Amber Thomas, Alison Presmanes Hill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34;&gt;Up and running with blogdown, by Alison Presmanes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Those above are the creators and the masters of blogdown, therefore i strongly suggest reading them.&lt;/p&gt;
+
+&lt;p&gt;Well, now, without further ado, let&amp;rsquo;s get to it!&lt;/p&gt;
+
+&lt;p&gt;I assume that you already have R and R-studio installed on your computer. So I&amp;rsquo;ll skip ahead.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let&amp;rsquo;s start from installing some packages:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;install R &amp;ldquo;devtools&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;install the package &amp;lsquo;blogdown&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;then you should load it&lt;/li&gt;
+&lt;li&gt;then install &amp;lsquo;Hugo&amp;rsquo;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;to do this you can copy paste these lines into your R console if you are too lazy to type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;install.packages(&amp;quot;devtools&amp;quot;) #1. install R &#39;devtools&#39;
+install.packages(&amp;quot;blogdown&amp;quot;) #2.installing &#39;blogdown&#39; package
+library(blogdown) #3. loading it 
+blogdown::install_hugo() #4. installing hugo
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;after a bit Hugo is installed. From now on things get more complicated, yeah i know we just started!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BUT&lt;/strong&gt; it is because we here introduce the use of &lt;em&gt;git&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;git&lt;/em&gt;&lt;/a&gt; is a version control system that basically allows you to save all your steps and go back if you screw something up (if you know how to use it properly&amp;hellip;). Since this is a noob tutorial i won&amp;rsquo;t go into details on how &lt;em&gt;git&lt;/em&gt; works, i will let this to your good willing to learn something new today. Moving on.&lt;/p&gt;
+
+&lt;p&gt;The first thing you want to do is to create your own repository on &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;github&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know what I am talking about it means that you probably have to subscribe to the website first &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;https://github.com/&lt;/a&gt;, it&amp;rsquo;s free! Come one! &lt;strong&gt;DO IT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/DO-IT.gif&#34; alt=&#34;**DO IT!**&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;follow the instruction on screen and you are good to go.&lt;/p&gt;
+
+&lt;p&gt;when you have your own github account, you can now create your first repository.&lt;/p&gt;
+
+&lt;p&gt;to do that, you click on the plus sign of the screen after you subscribed:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/githubnewrepo.jpg&#34; alt=&#34;**create new repository**&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now choose a name for you project, e.g. &amp;ldquo;MyWebsite&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/CreateNewRepo.jpg&#34; alt=&#34;**create new repository**&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;it is very important that you select the option to initialize your repository with a README file.&lt;/strong&gt;
+now you should just click on the green button &amp;ldquo;clone or download&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/CloneRepo.jpg&#34; alt=&#34;**clone repo**&#34; /&gt;
+select the URL and copy it, you will need it in R-studio.&lt;/p&gt;
+
+&lt;p&gt;Now go to R-studio, you can see that on the bottom of the GUI, there are two panels, one is called Console, where you can input commands to R. The other is called &amp;ldquo;Terminal&amp;rdquo;, this is an emulator of your computer terminal, where commands directly influence your computer environment, thus be careful to not mess thing up.&lt;/p&gt;
+
+&lt;p&gt;Select the terminal panel, you will notice a command line slightly different from the one you are used to on R.&lt;/p&gt;
+
+&lt;p&gt;also before the command prompt, you will see your working directory you are in right now. In my case it is under
+&amp;ldquo;C:\Users\zephi\Dropbox\SeaEcoLab&amp;gt;&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;You should now move to the directory in which you will create your new project. Mind that we will create another folder in the following step, so it will be a sub folder of the directory you choose to start with.
+If you are happy with the default choice and want to create your folder right now just go ahead and type git clone and copy paste the URL you copied from github.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;git clone https://github.com/Fabbiologia/MyWebsite.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It should appear your URL instead of mine (duh&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;you can also clone directly to other folders, but to do that i will link you to another site with a nice tutorial on how to do that: &lt;a href=&#34;https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone&#34; target=&#34;_blank&#34;&gt;https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, you generated a copy of the repository you created on the github website in your computer, so just go ahead and change your working directory to the one you created:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;cd MyWebsite
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;you just change &amp;ldquo;MyWebsite&amp;rdquo; with the name you choose.&lt;/p&gt;
+
+&lt;p&gt;Now you have a working directory that is linked to github, this will help you a lot to improve your workflow, and also to be able to deploy your website at the end of this tutorial.&lt;/p&gt;
+
+&lt;p&gt;now it is time to get to the cool part.&lt;/p&gt;
+
+&lt;p&gt;Use the top menu buttons in RStudio to select File -&amp;gt; New Project -&amp;gt; Existing Directory, then browse to the directory on your computer where your GitHub repo is and click on the Create Project button.&lt;/p&gt;
+
+&lt;p&gt;This will transfer you to your project in RStudio. You should now edit your *gitignore file. You can find it in the files pane (bottom right corner panel).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/gitignore.jpg&#34; alt=&#34;gitignore file&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;the file should contain the following:&lt;/p&gt;
+
+&lt;p&gt;.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+.DS_Store # if a windows user, Thumbs.db instead
+public/ # if using Netlify&lt;/p&gt;
+
+&lt;p&gt;if some of these files are missing you should add them, you can just copy paste them from here. Mind the .DS_Store file. You should add this only if you are a Mac user, if you are a windows user you should add Thumbs.db instead.&lt;/p&gt;
+
+&lt;p&gt;Now it is time to create your website with the academic theme. You do that by giving this command on the R console:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_site(theme = &amp;quot;gcushen/hugo-academic&amp;quot;, theme_example = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now go to the top toolbar, and click on Tools
+&lt;img src=&#34;/img/tutorials/hugo-academic/tools.jpg&#34; alt=&#34;Tools&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and then click project options from the menu.
+&lt;img src=&#34;/img/tutorials/hugo-academic/projectoptions.jpg&#34; alt=&#34;project options&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;there you should uncheck the &amp;ldquo;preview site after build&amp;rdquo; options under the build tools.&lt;/p&gt;
+
+&lt;p&gt;You are almost there! Now you should edit your config.toml file. Click it from the File pane as you did for the gitignore file and it should open. The first thing you want to do is to change the URL file under the baseurl option at the beginning of the script.&lt;/p&gt;
+
+&lt;p&gt;Now its time to choose your site name. This can be whatever you want, but for this tutorial we will use netlify to deploy it (put it online :) ) so it should be like this:&lt;/p&gt;
+
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a href=&#34;https://MySiteName.netlify.com/&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://MySiteName.netlify.com/&amp;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;also remember to add the / trailing slash at the end of the URL.&lt;/p&gt;
+
+&lt;p&gt;You can go ahead and edit all of the other elements, the instruction on how to modify it are very straightforward.
+This will allow you to add your own information, pictures and files.&lt;/p&gt;
+
+&lt;p&gt;When you are satisfied with your changes, you should commit your changes and push to GitHub. To do this, you should notice that in the top-right pane in RStudio there are several panels. One of which is called Git.
+There you will see all the file you changed and that are different from the online repository, thus you need to &amp;ldquo;commit&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/gitpane.jpg&#34; alt=&#34;git pane&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;now you can check all of the files you find these will change the colors icon of their status.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/gitstaged.jpg&#34; alt=&#34;git staged&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now here i had a problem in my first commit. When you have large files that you want to commit to GitHub, RStudio might crash. That is a problem of this peculiar interface. If you experience such a problem you can easily go around it and do the following in your terminal panel in RStudio:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;git add -A
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;this will automatically stage all of the changes.
+Now that your changed are staged you need to commit them, to do this go back to the git panel in RStudio, and click on the commit button on the toolbar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/commitpanel.jpg&#34; alt=&#34;commit panel&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;remember to put a message to your commit. You should always do that, explaining what you changed and updated, to keep track of your progress (and potential mistakes).&lt;/p&gt;
+
+&lt;p&gt;Now go on and click commit. This will open a window with the progress of the commit.
+If everything goes fine, and no error messages are displayed, you should now click on the green arrow called Push.
+This will make all your changes immediately effective.&lt;/p&gt;
+
+&lt;p&gt;Now do one last thing before go any further. Use this command to check your Hugo version. In the R console type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::hugo_version()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and take note of the version number in the output because you will need it in the next step, &lt;strong&gt;this is VERY IMPORTANT!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you tweaked your website you want to know how to deploy your website. You should first go to Netlify website: &lt;a href=&#34;https://www.netlify.com&#34; target=&#34;_blank&#34;&gt;https://www.netlify.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Register following the instruction on screen.&lt;/p&gt;
+
+&lt;p&gt;then you should log in and select New site from Git.
+&lt;img src=&#34;/img/tutorials/hugo-academic/netlifynewsite.jpg&#34; alt=&#34;netlifynewsite&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the GitHub icon. From there, Netlify will allow you to select from your existing GitHub repositories.
+Pick the repository you created and then you should specify to things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;the hugo version that you are using.&lt;/li&gt;
+&lt;li&gt;the folder that contains your public files (the ones that will shape your website)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;you will type the first in the settings you see here in the screenshot:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/deploysettings.jpg&#34; alt=&#34;netlifynewsite&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;YOU SHOULD PUT YOUR OWN VERSION NUMBER OF HUGO FOR THIS TO WORK!&lt;/strong&gt;
+that is why you needed to check it before.&lt;/p&gt;
+
+&lt;p&gt;go on and click deploy!&lt;/p&gt;
+
+&lt;p&gt;After a while your site will be deployed. But first you want to change your site name. To do this click on Site settings, and click on &amp;ldquo;change name&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/addcustomdomain.jpg&#34; alt=&#34;addcustomdomain&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can change your name to the one you put in your config file. Actually, &lt;strong&gt;it need&lt;/strong&gt; to be the same!!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/tutorials/hugo-academic/changename.jpg&#34; alt=&#34;addcustomdomain&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and now you are good to go! click on the link and if everything went fine you should be redirected to your brand new site!! Congratulations!!&lt;/p&gt;
+
+&lt;p&gt;Every time you make changes or add posts, you just need to commit your changes to GitHub, as you did for the first commit, and after few seconds netlify will automatically update your website!&lt;/p&gt;
+
+&lt;p&gt;Contact me if you have further question! you can find me on twitter, email, or on github. You will find the links to contact me on my home page &lt;a href=&#34;https://seaecolab.netlify.com/&#34; target=&#34;_blank&#34;&gt;https://seaecolab.netlify.com/&lt;/a&gt;
+Cheers!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SIG101: An Introduction to Geographic Information Systems</title>
-      <link>https://seaecolab.netlify.com/post/sig101/</link>
+      <link>/post/sig101/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/post/sig101/</guid>
+      <guid>/post/sig101/</guid>
       <description>&lt;p&gt;This is the page dedicated to the SIG101 course @UABCS.
 Slides can be found here&lt;/p&gt;
 
@@ -32,28 +243,23 @@ Slides can be found here&lt;/p&gt;
     
     <item>
       <title>Remote Sensing</title>
-      <link>https://seaecolab.netlify.com/project/remote-sensing/</link>
+      <link>/project/remote-sensing/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/remote-sensing/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <guid>/project/remote-sensing/</guid>
+      <description>&lt;p&gt;This project is in collaboration with &lt;a href=&#34;http://www.watercolumncorrection.com/&#34; target=&#34;_blank&#34;&gt;Dr. Morel&lt;/a&gt;, who has been developing 4SM methodology for water column correction of satellite images without the need for field data.
+We are proud to be part of the developing of this incredible method.&lt;/p&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;p&gt;4SM is also featured in a new project of mapping the benthic communities of the Espiritu Santo marine reserve. More information about the project are coming soon.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Who we are</title>
-      <link>https://seaecolab.netlify.com/post/who-we-are/</link>
+      <link>/post/who-we-are/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://seaecolab.netlify.com/post/who-we-are/</guid>
+      <guid>/post/who-we-are/</guid>
       <description>&lt;p&gt;The SeaEcoLab aims to model how habitats and communities change in time, and how this affect biodiversity and ecosystem functioning.
 In the Gulf of California the group is working extensively using numerical ecology techniques, generalized models, and remote sensing to study rocky reefs communities.
 The group is involved in different projects and is collaborating with international institutions, such as the SCRIPPS institution of Oceanography, the Centro Marino para la Biodiversidad y Conservacion CMBC, the Bioengeneering and Environmental Science Laboratory BICA and the Reef Fauna Project PFA.&lt;/p&gt;
@@ -62,46 +268,46 @@ The group is involved in different projects and is collaborating with internatio
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://seaecolab.netlify.com/privacy/</link>
+      <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/privacy/</guid>
+      <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Testing of the 4SM Method in the Gulf of California Suggests Field Data Are not Needed to Derive Satellite Bathymetry</title>
-      <link>https://seaecolab.netlify.com/publication/4sm_slc/</link>
+      <link>/publication/4sm_slc/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/publication/4sm_slc/</guid>
+      <guid>/publication/4sm_slc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>4SM a novel method for water column correction</title>
-      <link>https://seaecolab.netlify.com/publication/4sm_yann/</link>
+      <link>/publication/4sm_yann/</link>
       <pubDate>Tue, 15 Aug 2017 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/publication/4sm_yann/</guid>
+      <guid>/publication/4sm_yann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Macroalgae community over the rocky reefs in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/macroalgae/</link>
+      <link>/project/macroalgae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/macroalgae/</guid>
+      <guid>/project/macroalgae/</guid>
       <description>&lt;p&gt;&amp;ldquo;The Gulf of California is famous all over the world for its marine biodiversity. There, rocky reefs represent the largest habitat that hosts a rich biodiversity important for the ecosystem balance and for providing commercial and tourist attractions. In the GOC, few studies tackled the topic of macroalgae community ecology in the rocky reefs, despite being a recognized fundamental component in every marine system. On a large scale, the relationship between macroalgae community structure and the surrounding environment is practically unknown. Here we show how macroalgae dominates in term of cover all of the rocky reefs investigated, underlining their importance for the habitat.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://seaecolab.netlify.com/img/Macroalgae_cover.png&#34; alt=&#34;Main macroalgae taxa cover&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/img/Macroalgae_cover.png&#34; alt=&#34;Main macroalgae taxa cover&#34; /&gt;
 Boxplots macroalgae taxa that showed the highest cover in the five study areas; the last panel show the top five taxa with the highest cover in all of the surveyed reefs, the abbreviations are L. var= Lobophora variegata, Dict= Dictyota sp, Poci= Pocillopora spp.&lt;/p&gt;
 
 &lt;p&gt;Furthermore, we disentangled the role of abiotic factors, like temperature and Chlorophyll-a concentration, and biotic factors, like fish and invertebrate grazers, over the macroalgae community. We found a latitudinal gradient in macroalgae that, however, is not the most important driver of community structure at this scale. Indeed a strong relationship was found between macroalgae functional groups like turf and crustose coralline algae with grazing species like the sea urchin &lt;em&gt;Diadema mexicanum&lt;/em&gt; and the starfish &lt;em&gt;Phataria unifascialis&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://seaecolab.netlify.com/img/RDAmacroalgae.png&#34; alt=&#34;RDA analysis of Macroalgae taxa&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/img/RDAmacroalgae.png&#34; alt=&#34;RDA analysis of Macroalgae taxa&#34; /&gt;
 Parsimonious RDA of macroalgae benthic community using biotic and abiotic environmental variables as explanatory variables. Significant variables represented by the arrows are coded as follow: &lt;strong&gt;D_mex&lt;/strong&gt;: Diadema mexicanum, &lt;strong&gt;chla_min&lt;/strong&gt;: Chlorophyll-a minimum value, &lt;strong&gt;SST&lt;/strong&gt;: mean Sea Surface Temperature (°C), &lt;strong&gt;P_unif&lt;/strong&gt;: Phataria unifascialis.&lt;/p&gt;
 
 &lt;p&gt;These results further underline the importance of the trophic network in keeping the balance between different functional groups of organisms, and the key role that grazer play in shaping community structure. We hope to raise interest over the macroalgae of the rocky reefs and that this study will serve as a baseline from which future investigation can rely on to further understand the complex relationships that shapes the rocky reefs communities in the GOC.&lt;/p&gt;
@@ -110,12 +316,12 @@ Parsimonious RDA of macroalgae benthic community using biotic and abiotic enviro
     
     <item>
       <title>Rocky reefs&#39; community ecology in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/rocky-reefs-community/</link>
+      <link>/project/rocky-reefs-community/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/rocky-reefs-community/</guid>
+      <guid>/project/rocky-reefs-community/</guid>
       <description>&lt;p&gt;&amp;ldquo;The Gulf of California, once branded as “the Aquarium of the World” due to its high biodiversity and pool of unique species, is subject to increasing fishing pressure and habitat transformation, threatening its biodiversity. Using a database of 17 years of ecological underwater surveys in the rocky reefs of the region, our temporal analyses revealed a generalized loss of richness for species of fishes and epibenthic invertebrates. Moreover, a significant rise of Sea Surface Temperatures (SST) is prompting a tropicalization of the invertebrate community in the region, where species that historically inhabited the subtropical transitional areas in the GOC, reduced their spatial range, while being displaced by species with tropical affinities. Analyzing community differences among reefs trough time using the Local Contribution to Beta Diversity index, we observed that the coupled effects of the defaunation and tropicalization prompted a spatial biotic homogenization over the region, making reefs more similar through time.
-&lt;img src=&#34;https://seaecolab.netlify.com/img/Tropicalization.png&#34; alt=&#34;Tropicalization in the Gulf of California&#34; /&gt;
+&lt;img src=&#34;/img/Tropicalization.png&#34; alt=&#34;Tropicalization in the Gulf of California&#34; /&gt;
 On the left, the map show ecoregions in the GOC. NG is Northern GOC, CG is Central GOC, SG is Southern GOC, TEP is Tropical Eastern Pacific. On the right the same regions are drawn, but shifted northwards according to what we can theoretically expect for the future of the area from the results of this project. The purpose of this figure is just to allow the reader to visualize our conceptualization of a near-future tropicalization scenario in the GOC.&lt;/p&gt;
 
 &lt;p&gt;Finally, we found that well-enforced no-take areas can buffer the long-term homogenization of specific reefs, such as Cabo Pulmo National Park. This suggest that overfishing might be an important driver of fish biomasses degradation in the region. The longer-term outcomes of the processes of defaunation, tropicalization and biotic homogenization over ecosystems are still largely unknown. Continuing the support of ecological monitoring programs is, therefore, far-reaching not only to record such effects, but also to identify areas that could serve as last refugia to preserve the biodiversity of a region that once attracted the attention of researchers from around the globe.&amp;rdquo;&lt;/p&gt;

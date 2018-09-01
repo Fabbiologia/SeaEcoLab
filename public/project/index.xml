@@ -2,40 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on SeaEco Lab</title>
-    <link>https://seaecolab.netlify.com/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on SeaEco Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 15 Aug 2018 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://seaecolab.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Remote Sensing</title>
-      <link>https://seaecolab.netlify.com/project/remote-sensing/</link>
+      <link>/project/remote-sensing/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/remote-sensing/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <guid>/project/remote-sensing/</guid>
+      <description>This project is in collaboration with Dr. Morel, who has been developing 4SM methodology for water column correction of satellite images without the need for field data. We are proud to be part of the developing of this incredible method.
+4SM is also featured in a new project of mapping the benthic communities of the Espiritu Santo marine reserve. More information about the project are coming soon.</description>
     </item>
     
     <item>
       <title>Macroalgae community over the rocky reefs in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/macroalgae/</link>
+      <link>/project/macroalgae/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/macroalgae/</guid>
+      <guid>/project/macroalgae/</guid>
       <description>&amp;ldquo;The Gulf of California is famous all over the world for its marine biodiversity. There, rocky reefs represent the largest habitat that hosts a rich biodiversity important for the ecosystem balance and for providing commercial and tourist attractions. In the GOC, few studies tackled the topic of macroalgae community ecology in the rocky reefs, despite being a recognized fundamental component in every marine system. On a large scale, the relationship between macroalgae community structure and the surrounding environment is practically unknown.</description>
     </item>
     
     <item>
       <title>Rocky reefs&#39; community ecology in the Gulf of California</title>
-      <link>https://seaecolab.netlify.com/project/rocky-reefs-community/</link>
+      <link>/project/rocky-reefs-community/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
       
-      <guid>https://seaecolab.netlify.com/project/rocky-reefs-community/</guid>
+      <guid>/project/rocky-reefs-community/</guid>
       <description>&amp;ldquo;The Gulf of California, once branded as “the Aquarium of the World” due to its high biodiversity and pool of unique species, is subject to increasing fishing pressure and habitat transformation, threatening its biodiversity. Using a database of 17 years of ecological underwater surveys in the rocky reefs of the region, our temporal analyses revealed a generalized loss of richness for species of fishes and epibenthic invertebrates. Moreover, a significant rise of Sea Surface Temperatures (SST) is prompting a tropicalization of the invertebrate community in the region, where species that historically inhabited the subtropical transitional areas in the GOC, reduced their spatial range, while being displaced by species with tropical affinities.</description>
     </item>
     
