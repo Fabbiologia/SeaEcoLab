@@ -38,12 +38,12 @@ filter_default = 0
   tag = "Remote Sensing"
   
 [[filter]]
-  name = "Rocky reefs"
-  tag = "Rocky reefs"
+  name = "Protection of remote reefs"
+  tag = "Conservation"
   
 [[filter]]
-  name = "Macroalgae"
-  tag = "Macroalgae"
+  name = "Economic importance of SCUBA diving"
+  tag = "SCUBA diving"
 
 [[filter]]
   name = "Bacterial communities"
