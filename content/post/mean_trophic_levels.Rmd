@@ -1,0 +1,123 @@
+---
+title: 'Updating: Mean trophic levels of a genera from FishBase'
+author: 'Fabio Favoretto'
+date: '2021-02-15'
+slug: []
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: 'Scaridae_Scarus.ghobban.png'
+  preview: yes
+---
+
+# Calculating Mean Trophic Leves of a genera from FishBase
+
+
+I recently had the necessity to update the Trophic Levels on our Rocky Reefs Monitoring database. Thus, i wondered if an automatic way to access FishBase existed. It obviously does in the magnificent package `rfishbase`. 
+
+I then searched for an easy tutorial on how to calculate mean trophic levels in R, and i found this ("blog post")[https://www.r-bloggers.com/2017/03/mean-trophic-levels-of-a-genera-from-fishbase/]. The blog post gave me a great head start. However, it is not currently fully reproducible, so I decided to update the code. 
+
+
+First let's install the rfishbase package and loading it in R
+
+```{r}
+
+install.packages("rfishbase")
+library("rfishbase") # R Interface to 'FishBase'
+
+```
+
+I also the dplyr package to wrangle the datasets
+
+```{r}
+
+library(tidyverse) # Easily Load the 'Tidyverse', CRAN v1.3.0 
+
+```
+
+Following the same workflow from the post, I will find Trophic Levels of all groupers (Serranidae) in the fishbase database. 
+
+```{r}
+
+groupers <- fishbase %>%
+      filter(Family == "Serranidae") %>%
+      mutate(gensp = paste(Genus, Species))
+
+glimpse(groupers)
+
+```
+
+
+The next step is to extract the information about the trophic levels for each species, it is now where the difference from the previous blog occurs. In the newest version of the `ecology` function you need to specify *also* the `Species` name column. We will need this to merge the dataset with the groupers species list dataframe. 
+
+```{r}
+
+groupers_TL <- ecology(groupers$gensp, fields = c("Species", "DietTroph"))
+
+glimpse(groupers_TL)
+```
+
+As a bonus I also add another trait to the database to get `a` and `b` parameters to calculate species biomass if needed. Insead of searching in the `ecology` table of `rfishbase` we use the `length_weight()` function to access length trait data. 
+
+```{r}
+
+ab <- length_weight(groupers$gensp, fields = c("Species", "a", "b"))
+
+glimpse(ab)
+
+```
+
+We're almost there! We now merge the all parameters, the Trophic Levels, a and b into a `grouper_traits` data frame using the `merge()` function from the `tidyverse`. 
+
+```{r}
+
+groupers_traits <- merge(groupers_TL, ab)
+
+glimpse(groupers_traits)
+```
+
+We then merge the traits with the groupers species list. Note that since full species scientific notation is stored in different column names in the two data.frames, we need to specify the `by.x` and `by.y` parameters in the merge function. 
+
+```{r}
+
+d2 <- merge(groupers, groupers_traits, by.x = "gensp", by.y = "Species")
+
+glimpse(d2)
+
+```
+
+Last step! We want `R` to get the traits when available, and use the average of the genus when not available. We will achieve this using the `ifelse()` function in the `mutate()` step below. This will add the needed columns of `trophic_levels`, `a`, and `b`parameters.
+
+```{r}
+d3 <- d2 %>%
+      group_by(Genus) %>%
+      mutate(
+            mntroph = mean(DietTroph, na.rm = T),
+            a_mean = mean(a, na.rm = T),
+            b_mean = mean(b, na.rm = T)
+      ) %>%
+      ungroup() %>%
+      mutate(
+            trophall = ifelse(is.na(DietTroph), mntroph, DietTroph),
+            a_all = ifelse(is.na(a), a_mean, a),
+            b_all = ifelse(is.na(b), b_mean, b)
+      ) %>%
+      select(Species = gensp, Family, Order, Class,
+             a = a_all, b = b_all, trophic_level = trophall)
+
+glimpse(d3)
+
+```
+
+Let's check the data from **Mycteroperca** genus. 
+
+```{r}
+
+d3 %>% 
+        filter(str_detect(Species, "Mycteroperca")) %>% 
+      select(Species, a, b, trophic_level)
+
+```
+
