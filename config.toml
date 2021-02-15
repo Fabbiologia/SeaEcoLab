@@ -70,8 +70,8 @@ enableGitInfo = true
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [ { name = "Centro para la Biodiversidad Marina y la Conservación", url = "" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "logo_CBMC.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "Fabio.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "favoretto@uabcs.mx"
   address = "Carrettera al sur km 5.5, La Paz, BCS, Mexico"
 
